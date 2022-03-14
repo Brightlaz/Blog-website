@@ -1,0 +1,15 @@
+.fblock {
+    color: black;
+    flex: 0 0 41%;
+    height: auto;
+    width: 300px;
+    margin-bottom: 10px;
+    padding: 30px 20px;
+}
+
+.fblock:first-of-type {
+    border: 3px solid white;
+    cursor: grab;
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}

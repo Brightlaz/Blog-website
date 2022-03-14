@@ -1,0 +1,97 @@
+@import "./family.css";
+@import "./imgs.css";
+@import "./cards.css";
+body {
+    font-family: 'Open sans';
+    font-size: 14px;
+    font-style: normal;
+    padding: 0 0;
+    margin: 0 0;
+    background-color: aliceblue;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Roboto", "Helvetica", sans-serif;
+}
+
+header,
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 0px;
+}
+
+.block {
+    flex: 1 0 33%;
+}
+
+a {
+    color: #4caf50;
+    text-decoration: none;
+}
+
+
+/* .block a {
+    color: black;
+} */
+
+a:hover {
+    text-decoration: underline solid 2px !important;
+    text-underline-offset: 10px;
+}
+
+footer {
+    background-color: black;
+    height: auto;
+    color: white;
+    padding: 50px;
+}
+
+
+/*work life page*/
+
+.banner {
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    margin-bottom: 40px;
+    margin-top: 50px;
+}
+
+section {
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+}
+
+#family p,
+#family h2 {
+    width: 500px;
+}
+
+.nav {
+    max-width: 30%;
+    padding: 50px;
+    margin-bottom: 100px;
+    bottom: 50px;
+    margin-left: 50%;
+}
+
+#avatar {
+    background-color: #272626;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 50px;
+}

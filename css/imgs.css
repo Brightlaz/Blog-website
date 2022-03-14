@@ -1,0 +1,13 @@
+img {
+    width: 100%;
+    height: auto;
+}
+
+.nav img {
+    width: 300px;
+}
+
+#avatar img {
+    width: 60px;
+    height: auto;
+}
