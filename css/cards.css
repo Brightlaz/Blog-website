@@ -11,11 +11,10 @@
     flex-wrap: wrap;
     padding-right: var(--bs-gutter-x, .75rem);
     padding-left: var(--bs-gutter-x, .75rem);
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 80%;
+    margin: auto;
     margin-bottom: 80px;
     margin-top: 50px;
+    justify-content: center;
 }
 
 .block2 {
@@ -23,7 +22,6 @@
     background-color: black;
     color: white;
     height: auto;
-    width: 300px;
     margin-right: 10px;
     margin-bottom: 10px;
     padding: 30px 20px;

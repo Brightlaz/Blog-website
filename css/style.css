@@ -10,12 +10,16 @@ body {
     background-color: aliceblue;
 }
 
+.grid,
+.grid2 {
+    display: grid;
+    width: 100vw;
+    margin: auto;
+}
+
 h1,
 h2,
-h3,
-h4,
-h5,
-h6 {
+h3 {
     font-family: "Roboto", "Helvetica", sans-serif;
 }
 
@@ -24,7 +28,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto;
+    /* margin: auto; */
     text-align: center;
     margin-top: 60px;
     margin-bottom: 0px;
@@ -94,4 +98,8 @@ section {
     display: flex;
     justify-content: space-around;
     margin-left: 50px;
+}
+
+#extras {
+    color: blueviolet;
 }

@@ -5,9 +5,11 @@
     .fblock {
         flex: 0 0 100% !important;
     }
+    .block2 {
+        margin-right: 0px;
+    }
     .container {
         max-width: 70%;
-        margin-left: 45px;
     }
     article {
         flex: 0 0 100%;
@@ -30,9 +32,9 @@
 }
 
 @media (max-width: 430px) {
-    .container {
+    /* .container {
         margin-left: 20px;
-    }
+    } */
     footer {
         padding: 20px 0 20px 20px;
     }
@@ -42,9 +44,9 @@
 }
 
 @media (max-width: 280px) {
-    .container {
+    /* .container {
         margin-left: 10px;
-    }
+    } */
     h1.h2 {
         font-size: 12px;
     }
