@@ -10,7 +10,12 @@ body {
     background-color: aliceblue;
 }
 
-.grid,
+.grid {
+    display: grid;
+    width: 100vw;
+    margin: auto;
+}
+
 .grid2 {
     display: grid;
     width: 100vw;
@@ -91,7 +96,7 @@ section {
 }
 
 #avatar {
-    background-color: #272626;
+    background-color: #0159a4;
     border-radius: 50%;
     width: 100px;
     height: 100px;
